@@ -1,7 +1,8 @@
 runtime: php74
 
-# Defaults to "serve public/index.php" and "serve index.php". Can be used to
-# serve a custom PHP front controller (e.g. "serve backend/index.php") or to
-# run a long-running PHP script as a worker process (e.g. "php worker.php").
-#
-entrypoint: serve index.php
+handlers:
+- url: /assets
+  static_dir: assets
+
+- url: /.*
+  script: index.php
