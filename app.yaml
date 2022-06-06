@@ -1,5 +1,5 @@
 runtime: php74
-api_version: 2
+
 handlers:
 - url: /assets
   static_dir: assets
