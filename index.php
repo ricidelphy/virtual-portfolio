@@ -39,7 +39,7 @@
         <span class="ti-arrow-up"></span>
     </div>
 
-    <div class="vg-page page-home" id="home" style="background-image: url(https://storage.googleapis.com/demo-bucket-rizki2022/assets/bg_image_1.jpg)">
+    <div class="vg-page page-home" id="home" style="background-image: url(./assets/img/bg_image_1.jpg)">
         <!-- Caption header -->
         <div class="caption-header text-center wow zoomInDown">
             <h5 class="fw-normal">Welcome</h5>
@@ -55,7 +55,7 @@
             <div class="row">
                 <div class="col-lg-4 py-3">
                     <div class="img-place wow fadeInUp">
-                        <img src="https://storage.googleapis.com/demo-bucket-rizki2022/assets/rizki.jpg" alt="">
+                        <img src="./assets/img/rizki.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 offset-lg-1 wow fadeInRight">
